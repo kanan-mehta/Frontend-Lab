@@ -44,9 +44,13 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
           </NavLink>
         </li>
         <li className="menu-list-item">
-          <a href="#" className="menu-link" onClick={handleNavClick}>
+          <NavLink
+            to="/js-ts-kata"
+            className="menu-link"
+            onClick={handleNavClick}
+          >
             Javascript/Typescript Kata
-          </a>
+          </NavLink>
         </li>
         <li className="menu-list-item">
           <a href="#" className="menu-link" onClick={handleNavClick}>
