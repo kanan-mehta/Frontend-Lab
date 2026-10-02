@@ -6,6 +6,7 @@ const FrontendMentor = () => {
   return (
     <>
       <header className="intro">
+        <p className="page-eyebrow">Challenge Archive / Frontend Mentor</p>
         <h1 className="heading">Challenges from Frontend Mentor</h1>
         <p className="sub-heading">
           This is where I practice frontend development through hands-on

@@ -6,6 +6,7 @@ const ReactChallenges = () => {
   return (
     <>
       <header className="intro">
+        <p className="page-eyebrow">Practice / JavaScript &amp; TypeScript</p>
         <h1 className="heading">JavaScript & TypeScript Katas</h1>
         <p className="sub-heading">
           A collection of JavaScript and TypeScript problems designed to sharpen

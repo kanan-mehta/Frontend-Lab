@@ -70,6 +70,14 @@ select {
   font: inherit;
 }
 
+.page-eyebrow {
+  margin: 8px 0 16px;
+  color: #176b61;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 #root {
   min-height: 100vh;
 }

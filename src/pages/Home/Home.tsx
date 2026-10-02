@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
       <header className="intro">
+        <p className="page-eyebrow">Portfolio / Frontend Development</p>
         <h1 className="heading">Kanan's Frontend Lab</h1>
         <p className="sub-heading">
           Welcome to my Frontend Lab — a collection of my frontend development

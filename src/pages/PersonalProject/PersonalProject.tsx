@@ -5,6 +5,7 @@ const PersonalProject = () => {
   return (
     <>
       <header className="intro">
+        <p className="page-eyebrow">Selected Work / Projects</p>
         <h1 className="heading">Personal Projects</h1>
         <p className="sub-heading">
           A collection of larger projects where I bring together the concepts

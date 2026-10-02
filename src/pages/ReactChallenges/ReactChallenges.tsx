@@ -6,6 +6,7 @@ const ReactChallenges = () => {
   return (
     <>
       <header className="intro">
+        <p className="page-eyebrow">Practice / React</p>
         <h1 className="heading">React Challenges</h1>
         <p className="sub-heading">
           Small challenges, real components, and plenty of practice — focused on
