@@ -1,5 +1,4 @@
 import fmLogo from "../assets/fm-logo.svg";
-import jsLogo from "../assets/js-logo.svg";
 import personalProjectLogo from "../assets/personal-project-logo.svg";
 import reactLogo from "../assets/react-logo.svg";
 import typescriptLogo from "../assets/typescript-logo.svg";
@@ -24,14 +23,7 @@ export const labItems = [
     description:
       "Coding exercises for strengthening JavaScript and TypeScript fundamentals and problem-solving.",
     icon: typescriptLogo,
-    href: "",
-  },
-  {
-    title: "JavaScript Polyfills",
-    description:
-      "Implementations of common JavaScript methods to understand how they work under the hood.",
-    icon: jsLogo,
-    href: "",
+    href: "/js-ts-kata",
   },
   {
     title: "Personal Projects",

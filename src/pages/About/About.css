@@ -1,0 +1,215 @@
+.about-page {
+  padding: 32px 0 48px;
+  color: #17212b;
+}
+
+.about-intro {
+  padding: 12px 0 36px;
+  border-bottom: 1px solid rgba(23, 33, 43, 0.16);
+}
+
+.about-eyebrow {
+  margin: 0 0 18px;
+  color: #176b61;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.about-intro h1 {
+  margin: 0;
+  color: #17212b;
+  font-family: inherit;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about-lede {
+  max-width: 620px;
+  margin: 20px 0 24px;
+  color: #455560;
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.about-resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 6px;
+  background: #176b61;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.about-resume-link:hover,
+.about-resume-link:focus-visible {
+  background: #12584f;
+}
+
+.about-resume-link:focus-visible {
+  outline: 3px solid #d29253;
+  outline-offset: 3px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.7fr);
+  gap: 56px;
+  padding-top: 34px;
+}
+
+.about-content h2 {
+  margin: 0 0 16px;
+  color: #17212b;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.about-story p,
+.about-focus li {
+  color: #455560;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.about-story p {
+  margin: 0 0 14px;
+}
+
+.about-focus ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 19px;
+}
+
+.about-focus a {
+  color: #176b61;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 107, 97, 0.35);
+  text-underline-offset: 3px;
+}
+
+.about-focus a:hover,
+.about-focus a:focus-visible {
+  color: #12584f;
+  text-decoration-color: currentColor;
+}
+
+.about-focus a:focus-visible {
+  outline: 2px solid #d29253;
+  outline-offset: 3px;
+}
+
+.about-skills {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(23, 33, 43, 0.16);
+}
+
+.about-skills-heading {
+  margin-bottom: 24px;
+}
+
+.about-skills-heading .about-eyebrow {
+  margin-bottom: 8px;
+}
+
+.about-skills-heading h2 {
+  margin: 0 0 8px;
+  color: #17212b;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.about-skills-heading > p:last-child {
+  max-width: 580px;
+  margin: 0;
+  color: #455560;
+  line-height: 1.65;
+}
+
+.about-skill-list {
+  margin: 0;
+  border-top: 1px solid rgba(23, 33, 43, 0.12);
+}
+
+.about-skill-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 0.35fr) minmax(0, 1fr);
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(23, 33, 43, 0.12);
+}
+
+.about-skill-row dt {
+  padding-top: 2px;
+  color: #176b61;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.about-skill-row dd {
+  min-width: 0;
+  margin: 0;
+}
+
+.about-skill-row dd > p {
+  margin: 0;
+  color: #455560;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.about-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-skill-tags li {
+  padding: 5px 9px;
+  border: 1px solid rgba(23, 107, 97, 0.16);
+  border-radius: 5px;
+  background: rgba(23, 107, 97, 0.06);
+  color: #334b48;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+  .about-page {
+    padding-top: 16px;
+  }
+
+  .about-intro {
+    padding-bottom: 28px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-top: 28px;
+  }
+
+  .about-skills {
+    margin-top: 36px;
+    padding-top: 26px;
+  }
+
+  .about-skill-row {
+    grid-template-columns: 1fr;
+    gap: 7px;
+    padding: 16px 0;
+  }
+}

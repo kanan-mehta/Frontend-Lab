@@ -21,9 +21,9 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
           </NavLink>
         </li>
         <li className="menu-list-item">
-          <a href="#" className="menu-link" onClick={handleNavClick}>
+          <NavLink to="/about" className="menu-link" onClick={handleNavClick}>
             About Me
-          </a>
+          </NavLink>
         </li>
         <li className="menu-list-item">
           <NavLink
@@ -51,11 +51,6 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
           >
             Javascript/Typescript Kata
           </NavLink>
-        </li>
-        <li className="menu-list-item">
-          <a href="#" className="menu-link" onClick={handleNavClick}>
-            Javascript Polyfills
-          </a>
         </li>
         <li className="menu-list-item">
           <NavLink

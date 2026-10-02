@@ -7,6 +7,7 @@ import FrontendMentor from "./pages/FrontendMentor/FrontendMentor";
 import PersonalProject from "./pages/PersonalProject/PersonalProject";
 import ReactChallenges from "./pages/ReactChallenges/ReactChallenges";
 import JsTsKata from "./pages/JsTsKata/JsTsKata";
+import About from "./pages/About/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="frontend-lab-main">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/frontend-mentor" element={<FrontendMentor />} />
           <Route path="/react-challenges" element={<ReactChallenges />} />
           <Route path="/js-ts-kata" element={<JsTsKata />} />
